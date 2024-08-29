@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "home work 3-1"
+version = "0.1.0"
+description = "Розробіть Python скрипт, який використовує бібліотеку PyMongo для реалізації основних CRUD (Create, Read, Update, Delete) операцій у MongoDB."
+authors = ["MariiaSam <kontragent@ukr.net>"]
+license = "Mariia Samodurova"
+readme = "README.md"
+packages = [{include = "home work 3"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pymongo = "^4.8.0"
+load-dotenv = "^0.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
